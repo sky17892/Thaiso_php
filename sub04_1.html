@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국제문자</title>
+    <link rel="stylesheet" href="css/contents.css">
+    <link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="js/font-awesome/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/motion.js"></script>
+
+
+</head>
+
+<body>
+
+<header>
+	<div class="logo"><a href="/"><img src="images/logo.png" alt="로고"></a></div>
+	<div class="login">잔여 크레딧 : 9,829건 / 137,606 원 <button>로그아웃</button></div>
+	<nav>
+		<div class="hd">
+			<div class="menu_btn">
+				<a href="#"><img src="images/menu_ico.png"></a>
+			</div>		
+			<ul>
+				<li><a href="sub01.html">3사 발송테스트</a></li>
+				<li><a href="sub02.html">문자발송</a></li>
+				<li><a href="sub03.html">전송결과내역</a></li>
+				<li class="on"><a href="sub04.html">주소록/그룹관리</a></li>
+				<li><a href="sub05.html">결제내역</a></li>
+				<li><a href="sub06.html">충전하기</a></li>
+				<li class="li_last"><a href="sub07.html">정보수정</a></li>
+			</ul>
+		</div>
+	</nav>
+
+</header>
+<div class="menu_bg"></div>
+<div class="sidebar_menu">
+     <div class="close_btn"><a href="#">       
+         <img src="images/menu_close.png">
+         </a>
+     </div>
+     <ul class="menu_wrap">
+			<li><a href="sub01.html">3사 발송테스트</a></li>
+			<li><a href="sub02.html">문자발송</a></li>
+			<li><a href="sub03.html">전송결과내역</a></li>
+			<li><a href="sub04.html">주소록/그룹관리</a></li>
+			<li><a href="sub05.html">결제내역</a></li>
+			<li><a href="sub06.html">충전하기</a></li>
+			<li class="li_last"><a href="sub07.html">정보수정</a></li>
+     </ul>
+</div>
+    
+
+<section class="sub_lab">
+	<h1>주소록/그룹관리</h1>
+
+	<article class="content2">
+
+		<div class="sub_tab">
+			<ul>
+				<li class="on" onClick="location.href='sub04.html'">대량등록</li>
+				<li onClick="location.href='sub04_1.html'">주소록 관리</li>
+				<li onClick="location.href='sub04_2.html'">그룹관리</li>
+			</ul>
+		</div>
+
+		<table class="product_wtable">
+			<tr align="center">
+				<td>대량 등록방식</td>
+				<td><input type="radio" name="group" checked> 파일등록 <input type="radio" name="group"> 텍스트입력</td>
+			</tr>
+			<tr align="center">
+				<td>샘플파일 다운로드</td>
+				<td><button>엑셀샘플 파일</button> <button>CSV샘플파일</button></td>
+			</tr>
+			<tr align="center">
+				<td>파일선택</td>
+				<td>
+					<div class="filebox">
+						<input class="upload-name" value="첨부파일" placeholder="첨부파일">
+						<label for="file">파일찾기</label> 
+						<input type="file" id="file">
+					</div>
+					* 파일을 선택하시고 '선택파일 불러오기'를 클릭해 주세요.<br>
+					한 그룹에 최대 50,000개의 연락처를 등록하실 수 있습니다.<br>
+					<strong> 에러발생사유</strong><br>
+
+					* 엑셀 확장자를 .xlsx (Excel 통합문서)로 저장하신 후 다시 시도해주세요.<br>
+					* 엑셀 파일에 암호가 걸려있는 경우 에러가 발생할 수 있습니다.<br>
+					* 한셀 파일은 주소록 입력 기능을 지원하지 않습니다. 엑셀을 이용해주세요.<br>
+					* 크롬 브라우저 환경이 아니라면 크롬 브라우저에서 다시 시도해주세요.<br>
+					회원입력이 안되거나 어려우시면 고객센터에 문의해 등록대행을 요청해 주세요			
+				</td>
+			</tr>
+			<tr align="center">
+				<td>등록할 그룹선택</td>
+				<td>
+					<select>
+						<option>그룹없음</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</article>
+</section>
+
+
+<!-- 팝업 존 -->
+<div class="popup-wrap" id="popup">
+    <div class="popup">
+      <div class="popup-head">
+          <span class="head-title">문자내용</span>
+      </div>
+      <div class="popup-body">
+        <div class="body-content">
+            <p>무조건 1회 2O %  지급<br>X천 ⓢⓛⓞⓣ<br>buly.kr/1n2VidM<br>I7~I9시</p>
+        </div>
+      </div>
+      <div class="popup-foot">
+        <span class="pop-btn confirm" id="confirm">확인</span>
+        <span class="pop-btn close" id="close">창 닫기</span>
+      </div>
+    </div>
+</div>
+
+
+
+<footer>
+	<div class="foonter">		
+		<div class="foot_menu"><a href="#">Perfect Solution</a></div>
+		<div class="sns_area">
+			<ul>
+				<li><img src="images/sns01.png"></li>
+				<li><img src="images/sns02.png"></li>
+				<li><img src="images/sns03.png"></li>
+				<li><img src="images/sns04.png"></li>
+				<li>
+					<div class="family-site">
+					  <div class="select-box">
+						<label for="select" class="hide"></label>
+						<select name="select-name" id="select" class="falily-lnk" style="position: absolute; width: 197px; height: 60px; font-size: 11px;left: 0; top: 0;">
+						  <option selected>FAMILY SITE</option>
+						</select>
+					  </div>
+					</div>			
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="copy">
+		<div class="bt_logo"><img src="images/btlogo.png"></div>
+		<div class="copy_ment">
+			<p class="add"> 2024 국제문자<br>START A SUCCESSFULTEXTING BUSINESS TODAY</p>
+			<p class="copyright">Copyright ⓒ 국제문자. All Rights Reserved.</p>
+		</div>
+	</div>
+</footer>
