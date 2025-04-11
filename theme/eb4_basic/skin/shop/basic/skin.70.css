@@ -1,0 +1,28 @@
+/* 메인 상품 목록 스킨 70 */
+.view70 {width:384px; height:350px; float:left;}
+.view70 img {height:100%; width:auto; padding:0 10px; border:2px solid #285084}
+.smt_70_wrap {position:relative;float:left;border:2px solid #ccc;width:350px;height:350px;overflow:hidden;}
+.smt_70 {position:relative; }
+.smt_70 .sct_ul {position:relative;}
+.smt_70 .sct_ul_first {}
+.smt_70 .sct_li {clear:both;height:130px;padding:5px 0; border-bottom:2px solid #ccc}
+.smt_70 .sct_li:nth-child(odd) {background:#eee;}
+.smt_70 .sct_li:hover {background:#ccc}
+.smt_70 .sct_a {display:inline-block;position:relative;text-decoration:none}
+.smt_70 .sct_a:focus, .smt_50 .sct_a:hover {text-decoration:none}
+.smt_70 .sct_img {width:130px; height:130px; float:left;margin:0 5px}
+.smt_70 .sct_img a,
+.smt_70 .sct_img a img {width:100%; height:100%;}
+.smt_70 .sct_txt {margin:0 0 5px}
+.smt_70 .sct_txt a {display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.smt_70 .sct_icon {margin:0 0 10px}
+.smt_70 .sct_id {display:block;margin:0 0 5px}
+.smt_70 .sct_basic {margin:0 0 10px;display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.smt_70 .sct_cost {display:block;margin:0 0 10px;font-weight:bold}
+.smt_70 .sct_cost strike {display:block;margin:0 0 5px;color:#aaa;font-weight:normal}
+.smt_70 .sct_sns {}
+.smt_70_page {position:absolute; bottom:10px; right:10px;}
+.smt_70_page .smt70p {display:block; vertical-align:middle;background:#aaa; width:13px; height:13px; border:1px solid #000; margin:4px;}
+.smt_70_page .smt70p.smt70v {background:#ccc}
+.smt_70_page .smt70p.smt70v.smt70a {background:#fff;}
+.smt_70_page .smt70p.smt70v.smt70a:after {display:block;color:#285084;font-weight:bold;text-align:center;}

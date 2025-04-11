@@ -1,0 +1,24 @@
+/* 메인 상품 목록 스킨 60 */
+.smt_60_wrap {position:relative; overflow:hidden; height:390px;background:#666}
+.smt_60 {position:relative;}
+.smt_60 .sct_ul {}
+.smt_60 .sct_ul_first {display:block}
+.smt_60 .sct_li {position:relative;background:#fff;border-top:4px solid #666;float:left;padding:10px 15px;opacity:0.5;filter:alpha(opacity=50)}
+.smt_60 .swiper-slide-active {opacity:1;border-color:#285084;filter:alpha(opacity=100)}
+.smt_60_page {position:absolute; bottom:10px; left:10px;}
+.smt_60_page .smt60p {display:inline-block; vertical-align:middle;background:#aaa; width:16px; height:16px; border:2px solid #000; margin:0 4px; border-radius:100%;}
+.smt_60_page .smt60p.smt60v {background:#ccc}
+.smt_60_page .smt60p.smt60v.smt60a {background:#fff;}
+.smt_60_page .smt60p.smt60v.smt60a:after {content:"✓";display:block;color:#285084;font-weight:bold;text-align:center;}
+.smt_60 .sct_last {margin:0 0 15px}
+.smt_60 .sct_a {display:inline-block;position:relative;text-decoration:none}
+.smt_60 .sct_a:focus, .smt_50 .sct_a:hover {text-decoration:none}
+.smt_60 .sct_img {margin:0 0 10px}
+.smt_60 .sct_txt {margin:0 0 5px}
+.smt_60 .sct_txt a {display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.smt_60 .sct_icon {margin:0 0 10px}
+.smt_60 .sct_id {display:block;margin:0 0 5px}
+.smt_60 .sct_basic {margin:0 0 10px;display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.smt_60 .sct_cost {display:block;margin:0 0 10px;font-weight:bold}
+.smt_60 .sct_cost strike {display:block;margin:0 0 5px;color:#ccc;font-weight:normal}
+.smt_60 .sct_sns {}
