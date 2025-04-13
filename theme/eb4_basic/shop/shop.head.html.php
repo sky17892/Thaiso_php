@@ -89,7 +89,7 @@ if ($_SERVER['HTTPS'] != 'on') {
                         </ul>
                     </div>
                     <div class="col-lg-6 clearfix">
-                        <!--<ul class="top-header-nav list-unstyled thn-end">
+                        <ul class="top-header-nav list-unstyled thn-end">
                             <?php if ($is_member) {  ?>
                             <li>
 <?php if ($member['mb_level2'] > '0') {  
@@ -162,7 +162,7 @@ $(document).ready(function() {
                                     <?php } ?>
                                 </div>
                             </li>
-                        </ul>-->
+                        </ul>
                     </div>
                 </div>
             </div>
